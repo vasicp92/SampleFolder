@@ -6,7 +6,7 @@
     // Check if inputs are valid numbers
     if (!isNaN(num1) && !isNaN(num2)) {
     // Perform the operation
-                    let result = multiply(num1, num2);
+                    let result = num1 + num2;
 
                     // Display the result
                     displayResult(result);
